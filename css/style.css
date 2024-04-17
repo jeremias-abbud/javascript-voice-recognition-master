@@ -117,7 +117,7 @@ div#container footer#rodape {
   }
 
   section#corpo div#direita img {
-    max-width: 65%; /* Define uma largura máxima para a imagem */
+    max-width: 50%; /* Define uma largura máxima para a imagem */
     height: auto; /* Mantém a proporção da imagem */
     display: block; /* Permite centralizar horizontalmente */
     margin: 0 auto; /* Centraliza horizontalmente a imagem */
