@@ -7,7 +7,7 @@ var engine = {
         'red': '#E90808',
         'yellow': '#E7D703',
         'orange': '#F16529',
-        'grey': '#EBEBEB',
+        'grey': '#949391',
         'black': '#141414',
     },
     "moedas": 0
