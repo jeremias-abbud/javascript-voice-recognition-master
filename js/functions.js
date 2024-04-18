@@ -32,7 +32,7 @@ function aplicarCorNaCaixa(nomeDaCor) {
     var caixaDasCores = document.getElementById('cor-atual');
 
     caixaDasCores.style.backgroundColor = nomeDaCor;
-    caixaDasCores.style.backgroundImage = "URL('/img/caixa-fechada2.png')";
+    caixaDasCores.style.backgroundImage = "url('/img/caixa-fechada2.png')";
     caixaDasCores.style.backgroundSize = "100%";
 
 }
