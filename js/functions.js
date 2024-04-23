@@ -32,7 +32,7 @@ function aplicarCorNaCaixa(nomeDaCor) {
     var caixaDasCores = document.getElementById('cor-atual');
 
     caixaDasCores.style.backgroundColor = nomeDaCor;
-    caixaDasCores.style.backgroundImage = "url('../img/caixa-fechada.png')";
+    caixaDasCores.style.backgroundImage = "url('/img/caixa-fechada.png')";
     caixaDasCores.style.backgroundSize = "100%";
 
 }
@@ -80,7 +80,7 @@ if (window.SpeechRecognition || window.webkitSpeechRecognition) {
         transcricaoAudio = event.results[0][0].transcript.toUpperCase();
         respostaCorreta = document.getElementById("cor-na-caixa").innerText.toUpperCase();
 
-        if(transcricaoAudio === respostaCorreta){
+        if (transcricaoAudio === respostaCorreta) {
             atualizaPontuacao(1);
         } else {
             atualizaPontuacao(-1);
@@ -95,6 +95,6 @@ if (window.SpeechRecognition || window.webkitSpeechRecognition) {
     alert('Não tem suporte');
 }
 
-btnGravador.addEventListener('click', function(e) {
+btnGravador.addEventListener('click', function (e) {
     gravador.start();
 })
