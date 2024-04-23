@@ -13,8 +13,8 @@ var engine = {
     "moedas": 0
 }
 
-const audioMoeda = new Audio('audio/moeda.mp3')
-const audioErrou = new Audio('audio/errou.mp3')
+const audioMoeda = new Audio('documents/assets/audio/moeda.mp3')
+const audioErrou = new Audio('documents/assets/audio/errou.mp3')
 
 function sortearCor() {
     var indexCorSorteada = Math.floor(Math.random() * engine.cores.length);
